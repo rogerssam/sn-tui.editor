@@ -59,6 +59,17 @@ html {
   background-color: var(--sn-stylekit-secondary-background-color);
 }
 
+@media only screen and (max-width: 480px) {
+  .toastui-editor-dropdown-toolbar {
+    height: unset;
+    flex-wrap: wrap;
+  }
+  .toastui-editor-popup {
+    max-width: 300px;
+    margin-left: 0px;
+  }
+}
+
 .toastui-editor-mode-switch {
   background-color: var(--sn-stylekit-background-color);
 
